@@ -54,7 +54,7 @@ function AnimeCard({ anime, index }: Prop) {
             </p>
           </div>
         </div>
-        <div className='flex gap-4 tems-center'>
+        <div className='flex justify-between gap-4 tems-center'>
           <div className='flex flex-row gap-2 items-center'>
             <Image
               src='./episodes.svg'
