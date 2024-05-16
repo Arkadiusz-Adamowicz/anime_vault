@@ -48,7 +48,7 @@ function AnimeCard({ anime, index }: Prop) {
 
       <div className='py-4 flex flex-col gap-3'>
         <div className='flex justify-between items-start gap-1'>
-          <h2 className='font-bold text-white text-xl w-full line-clamp-3'>
+          <h2 className='font-bold text-white text-xl w-full line-clamp-2'>
             {anime.name}
           </h2>
           <div className='py-1 px-2'>
