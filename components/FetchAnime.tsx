@@ -10,7 +10,7 @@ let page = 2;
 
 export type AnimeCard = JSX.Element;
 
-function LoadMore() {
+function FetchAnime() {
   const { ref, inView } = useInView();
   const [data, setData] = useState<AnimeCard[]>([]);
 
@@ -43,4 +43,4 @@ function LoadMore() {
   );
 }
 
-export default LoadMore;
+export default FetchAnime;
