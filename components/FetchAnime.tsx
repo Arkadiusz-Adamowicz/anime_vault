@@ -16,7 +16,7 @@ function FetchAnime() {
 
   useEffect(() => {
     if (inView) {
-      fetchAnime(page).then((res) => {
+      fetchAnime(page).then(res => {
         setData([...data, ...res]);
         page++;
       });
