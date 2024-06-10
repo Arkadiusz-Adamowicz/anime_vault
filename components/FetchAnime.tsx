@@ -16,7 +16,7 @@ function FetchAnime() {
 
   useEffect(() => {
     if (inView) {
-      fetchAnime(page).then(res => {
+      fetchAnime(page).then((res) => {
         setData([...data, ...res]);
         page++;
       });
@@ -25,7 +25,7 @@ function FetchAnime() {
 
   return (
     <>
-      <section className='grid 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10'>
+      <section className='grid 6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10'>
         {data}
       </section>
       <section className='flex justify-center items-center w-full'>
