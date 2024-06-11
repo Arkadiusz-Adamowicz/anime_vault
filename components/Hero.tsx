@@ -1,4 +1,6 @@
+import { fetchAnime } from '@/app/action';
 import Image from 'next/image';
+import FetchAnime from './FetchAnime';
 
 function Hero() {
   return (
