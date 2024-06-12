@@ -14,7 +14,7 @@ export const fetchAnime = async (page: number) => {
 };
 
 export const fetchHentai = async (page: number) => {
-  const hentai = `https://shikimori.one/api/animes?page=${page}&limit=10&orderl=name&censored=false&genre=12`;
+  const hentai = `https://shikimori.one/api/animes?page=${page}&limit=10&order=name&censored=false&genre=12`;
 
   const res = await fetch(hentai);
   const data = await res.json();
