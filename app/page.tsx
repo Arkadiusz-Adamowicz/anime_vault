@@ -1,9 +1,9 @@
 import { fetchAnime } from './action';
 import FetchAnime from '../components/FetchAnime';
 
-
 const Anime = async () => {
   const data = await fetchAnime(1);
+
   return (
     <div className='sm:p-10 py-16 px-8 flex flex-col gap-10'>
       <h2 className='text-3xl text-white font-bold'>Explore Anime</h2>
